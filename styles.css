@@ -1,0 +1,154 @@
+*{
+   padding: 0;
+   margin: 0;
+   font-family: "Ubuntu" sans-serif;
+   box-sizing: border-box;
+   text-decoration: none;
+
+}
+body{
+	height: 100vh;
+	background: url('c.jpg') no-repeat center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.pro{
+	width: 400px;
+	text-align: center;
+	border-radius: 8px;
+	overflow: hidden;
+
+}
+.profile{
+background: gray;
+padding: 60px 40px;
+
+}
+
+.pic{
+	display: inline-block;
+	padding: 8px;
+	background: linear-gradient(130deg,green,red);
+	margin: auto;
+	background-size: 200% 200%;
+	border-radius: 50%;
+	animation: animation gradient 2s linear infinite;
+
+}
+
+@keyframes animated-gradient{
+	25%{
+		background-position: left bottom;
+	}
+	50%{
+		background-position: right bottom;
+	}
+	75%{
+		background-position: right top;
+	}
+	100%{
+		background-position: left top;
+	}
+}
+
+.pic img{
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.name{
+	color: white;
+	font-size: 28px;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+.address{
+
+	color: white;
+	font-size: 16px;
+	margin: 10px 0;
+}
+
+.desc{
+
+	color: red;
+	font-size: 16px;
+	margin: 10px 0;
+}
+.sm{
+
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+
+}
+
+.sm a{
+
+	color: white;
+	font-size: 22px;
+	width: 56px;
+	transition: .3s linear;
+
+}
+
+.sm a:hover{
+
+	color: blue;
+	
+	
+}
+
+.contact-btn{
+	display: inline-block;
+	padding: 12px 50px;
+	color: darkred;
+	border: 2px solid red;
+	border-radius: 6px;
+	margin-top: 16px;
+	transition: .3s linear;
+}
+
+.contact-btn:hover{
+	background: black;
+	color: white;
+
+}
+
+.footer{
+	background: white;
+	padding: 60px 10px;
+
+}
+
+.number{
+	display: flex;
+	align-items: center;
+
+}
+
+.item{
+	flex: 1;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: blueviolet;
+
+}
+
+.item span{
+	display: block;
+	color: green;
+	font-size: 30px;
+
+}
+
+.border{
+	width: 1px;
+	height: 30px;
+	background: whitesmoke;
+}
